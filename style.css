@@ -98,6 +98,8 @@ body{
     gap: 0 1rem;
     width: 90%;
     transition: all .3s ease-out;
+    color: var(--White);
+    font-size: 20px;
 }
 .btn:hover{
     background-color:hsl(158, 36%, 17%);
@@ -106,10 +108,7 @@ body{
     width: 10%;
     height: 100%;
 }
-.btn p{
-    color: var(--White);
-    font-size: 20px;
-}
+
 @media screen and (max-width:650px) {
     body{
         display: flex;
